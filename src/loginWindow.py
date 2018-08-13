@@ -44,7 +44,7 @@ def user_login():
     print(user_info)
     flag = usr_name in user_info
     if flag:
-        if (usr_pwd == user_info[usr_name]) :
+        if usr_pwd == user_info[usr_name]:
             tk.messagebox.showinfo(title='Welcome', message='hello, 你好, ' + usr_name)
         else:
             tk.messagebox.showerror(title='Error', message='passwd is not correct, try again!!!')

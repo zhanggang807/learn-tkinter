@@ -14,9 +14,7 @@ def print_selection(v):
 
 
 # from 是一个关键字，如果想做参数就跟一个下划线
-s = tk.Scale(window, label='try me', from_=5, to=11, orient=tk.HORIZONTAL,
-             length=200, showvalue=0, tickinterval=2, resolution=0.01
-             , command=print_selection)
+s = tk.Scale(window, label='try me', from_=5, to=11, orient=tk.HORIZONTAL, length=200, showvalue=0, tickinterval=2, resolution=0.01, command=print_selection)
 s.pack()
 
 window.mainloop()

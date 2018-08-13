@@ -20,8 +20,9 @@ def insert_end():
     t.insert('2.2', var)
     # 某行某列输入,指定点输入
 
-b = tk.Button(window, text='insert ponint', width=15, height=2,
-              command=insert_point)
+
+b = tk.Button(window, text='insert ponint', width=15, height=2, command=insert_point)
+
 b.pack()
 
 b2 = tk.Button(window, text='insert end', command=insert_end)

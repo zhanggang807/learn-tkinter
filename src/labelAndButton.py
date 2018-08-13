@@ -28,6 +28,7 @@ def hit_me():
         var.set('not hit me')
         on_hit = True
 
+
 b = tk.Button(window, text='hit me', width=15, height=2, command=hit_me)
 b.pack()
 

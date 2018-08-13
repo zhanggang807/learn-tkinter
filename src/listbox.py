@@ -14,8 +14,7 @@ def print_selection():
     var1.set(value)
 
 
-b = tk.Button(window, text='print selection', width=15, height=2,
-              command=print_selection)
+b = tk.Button(window, text='print selection', width=15, height=2, command=print_selection)
 b.pack()
 
 var2 = tk.StringVar()

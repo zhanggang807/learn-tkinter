@@ -23,12 +23,10 @@ def print_selection():
 var1 = tk.IntVar()
 var2 = tk.IntVar()
 
-c1 = tk.Checkbutton(window, text='Python', variable=var1, onvalue=1, offvalue=0,
-                    command=print_selection)
+c1 = tk.Checkbutton(window, text='Python', variable=var1, onvalue=1, offvalue=0, command=print_selection)
 c1.pack()
 
-c2 = tk.Checkbutton(window, text='C++', variable=var2, onvalue=1, offvalue=0,
-                    command=print_selection)
+c2 = tk.Checkbutton(window, text='C++', variable=var2, onvalue=1, offvalue=0, command=print_selection)
 c2.pack()
 
 window.mainloop()
